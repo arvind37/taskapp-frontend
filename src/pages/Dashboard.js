@@ -138,9 +138,7 @@ const Dashboard = () => {
         ) : tasks.length === 0 ? (
           <div className={styles.empty}>
             <p>No tasks found.</p>
-            <button className={styles.addBtn} onClick={() => setShowModal(true)}>
-              <FiPlus /> Add your first task
-            </button>
+          
           </div>
         ) : (
           <div className={styles.grid}>
